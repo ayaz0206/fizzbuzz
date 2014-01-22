@@ -14,10 +14,13 @@ end
 def fizzbuzz number
 	if is_divisible_by_fifteen? number
 		'Fizzbuzz'
+	elsif is_divisible_by_three? number
+		'Fizz'
 	elsif is_divisible_by_five? number
 		'Buzz'
-	else 
-		is_divisible_by_three? number
-		'Fizz'
+	else
+		number	
 	end
 end
+
+puts fizzbuzz(20)
