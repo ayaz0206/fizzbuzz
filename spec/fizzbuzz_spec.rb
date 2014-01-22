@@ -34,6 +34,11 @@ context "Play" do
 		expect(fizzbuzz(5)).to eq('Buzz')
 	end
 
+	it "returns fizzbuzz if passsed 15" do
+		expect(fizzbuzz(15)).to eq('Fizzbuzz')
+	end
+	
+
 end
 
 

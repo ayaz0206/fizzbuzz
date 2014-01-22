@@ -12,9 +12,12 @@ def is_divisible_by_fifteen? number
 end
 
 def fizzbuzz number
-	if is_divisible_by_three? number
-		'Fizz'
+	if is_divisible_by_fifteen? number
+		'Fizzbuzz'
 	elsif is_divisible_by_five? number
 		'Buzz'
+	else 
+		is_divisible_by_three? number
+		'Fizz'
 	end
 end
