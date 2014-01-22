@@ -8,7 +8,11 @@ end
 
 
 def is_divisible_by_five? number
-true
+	if number == 5
+		true
+	else
+		false
+	end
 end
 
 

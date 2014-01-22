@@ -16,6 +16,11 @@ context "In order to play, it" do
 		expect(is_divisible_by_five?(5)).to be_true
 	end
 
+	it "tells me that 6 is not divisible by 5" do
+		expect(is_divisible_by_five?(6)).to be_false
+	end
+	
+
 
 end
 end
