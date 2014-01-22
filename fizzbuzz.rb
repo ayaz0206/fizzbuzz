@@ -1,8 +1,10 @@
-
+def divide? number, divisor
+	number % divisor == 0
+end
 def fizzbuzz number
-	return 'Fizzbuzz' if is_divisible_by_fifteen? number
-	return 'Fizz' if is_divisible_by_three? number
-	return 'Buzz' if is_divisible_by_five? number
+	return 'Fizzbuzz' if divide? number, 15
+	return 'Fizz' if divide? number, 3
+	return 'Buzz' if divide? number, 5
 		number	
 end
 
@@ -20,4 +22,4 @@ def is_divisible_by_fifteen? number
 end
 
 
-puts fizzbuzz(20)
+puts fizzbuzz(1)
