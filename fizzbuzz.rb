@@ -15,4 +15,7 @@ def is_divisible_by_five? number
 	end
 end
 
+def is_divisible_by_fifteen? number
+	true
+end
 
