@@ -23,8 +23,6 @@ context "In order to play, it" do
 	it "tells me that 15 is divisible by 15" do
 		expect(is_divisible_by_fifteen?(15)).to be_true
 	end
-	
-
 
 end
 end

@@ -1,21 +1,13 @@
 def is_divisible_by_three? number
-	if number == 3
-		true
-	else
-		false
-	end
+	number % 3 == 0
 end
 
 
 def is_divisible_by_five? number
-	if number == 5
-		true
-	else
-		false
-	end
+	number % 5 == 0
 end
 
 def is_divisible_by_fifteen? number
-	true
+	number % 15 == 0
 end
 
