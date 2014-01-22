@@ -24,5 +24,14 @@ context "In order to play, it" do
 		expect(is_divisible_by_fifteen?(15)).to be_true
 	end
 
+context "Play" do
+
+	it "returns fizz if passed 3" do
+		expect(fizzbuzz(3)). to eq('Fizz')
+	end
+
+end
+
+
 end
 end
