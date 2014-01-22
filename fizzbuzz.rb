@@ -14,5 +14,7 @@ end
 def fizzbuzz number
 	if is_divisible_by_three? number
 		'Fizz'
+	elsif is_divisible_by_five? number
+		'Buzz'
 	end
 end
